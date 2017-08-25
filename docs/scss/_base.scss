@@ -1,0 +1,51 @@
+$branco: #fff;
+$preto: #191818;
+$cinza: #f2f2f2;
+$rosa: #ff1569;
+$vermelho: #ea6060;
+$azul: #4fc6f8;
+$verde: #4bc7c7;
+
+@font-face {
+	font-family: "Montserrat";
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.clearfix {
+	overflow:auto;
+	zoom:1;
+}
+
+.bg-preto {
+	background-color:$preto;
+}
+
+.bg-cinza {
+	background-color:$cinza;
+}
+
+.bg-vermelho {
+	background-color:$vermelho;
+}
+
+.bg-azul {
+	background-color:$azul;
+}
+
+.bg-verde {
+	background-color:$verde;
+}
+
+.container {
+	float:left;
+	width:980px;
+	max-width:980px;
+	height:100%;
+	margin:40px 0;
+	margin-right: 35px;
+	margin-left: 15%;
+}
