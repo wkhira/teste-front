@@ -41,6 +41,7 @@
 	a {
 		color:$branco;
 	}
+	transition: all 0.2s ease-out;
 	box-sizing: border-box;
 	border-left: 2px solid $rosa;
 	background-color:lighten($preto, 5%);
