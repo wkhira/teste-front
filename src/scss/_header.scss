@@ -1,0 +1,60 @@
+.header {
+	float:left;
+	width:85%;
+	box-sizing: border-box;
+	padding: 25px 35px;
+	margin-left:15%;
+}
+
+.header-titulo {
+	float:left;
+	width: 20%;
+
+	h1 {
+		color:lighten($preto, 40%);
+		font-weight:100;
+		font-size: 2.3em;
+	}
+
+	h2 {
+		color:lighten($preto, 60%);
+		font-size: 0.8em;
+		font-weight:400;
+		margin-top:10px;
+	}
+}
+
+.box-busca {
+	float:right;
+	vertical-align: middle;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.campo-busca {
+
+	border:none;
+	border-radius:3px;
+	outline:none;
+	background: $branco;
+	font-size: 0.9em;
+	float: left;
+	border-radius: 5px 0 0 5px;
+	margin: 15px 0;
+	padding:10px;
+	height:35px;
+}
+
+.btn-busca {
+	border:none;
+	background: $branco;
+	color:lighten($preto, 50%);
+	margin: 15px 0;
+	padding:10px;
+	outline:none;
+	border-radius: 0 5px 5px 0;
+
+	&:hover {
+		color:$preto;
+	}
+}

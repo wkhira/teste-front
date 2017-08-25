@@ -1,0 +1,1 @@
+function videoHover(){var o=$(".video"),e=$(".opcoes");$(document.documentElement);o.mouseover(function(){e.removeClass("hover-inativo")}),o.mouseout(function(){e.addClass("hover-inativo")})}$(function(){videoHover()});

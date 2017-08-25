@@ -1,0 +1,119 @@
+.post-video {
+	width:100%;
+	height:300px;
+	overflow:hidden;
+	margin-left:35px;
+}
+
+.card {
+	float:left;
+	background:$cinza;
+	width:32%;
+	overflow: hidden;
+}
+
+.card-icone {
+	float:left;
+	width:40px;
+	height:40px;
+	text-align:center;
+	margin-top: 40px;
+	margin-right:20px;
+
+	i  {
+		color:$branco;
+		margin-top: 12px;
+	}
+}
+
+.card-conteudo {
+	float:left;
+	width:70%;
+	margin-top:40px;
+}
+
+.card-titulo {
+	font-size: 1.5em;
+	line-height: 1.1em;
+	margin-top:5px;
+	font-weight: 400;
+}
+
+.card-subtitulo {
+	font-size: 0.8em;
+	color:lighten($preto, 50%);
+	margin-top:15px;
+}
+
+.card-texto {
+	color:lighten($preto, 30%);
+	font-size: 0.75em;
+	font-weight: 400;
+	line-height: 2em;
+	margin: 40px 0;
+
+	a {
+		text-decoration:none;
+		color:$vermelho;
+	}
+}
+
+.video {
+	float:left;
+	background-color:lighten($preto, 40%);
+	width:68%;
+	height:100%;
+}
+
+.opcoes {
+	float:left;
+	background-color:$preto;
+	width:110px;
+	text-align:center;
+	height:100%;
+	transition: opacity 0.3s ease-out;
+	li {
+		padding:20px 0;
+
+		&:hover {
+			background-color:lighten($preto, 5%);
+		}
+	}
+
+	a {
+		text-decoration:none;
+		color:$branco;
+	}
+
+	p {
+		margin-top:16px;
+		font-size:0.8em;
+	}
+}
+
+.hover-inativo {
+	opacity: 0;
+	transition: opacity 0.3s ease-out;
+	ul {
+		display:none;
+	}
+}
+
+.btn-play {
+	margin: 115px 200px;
+	border:none;
+	background-color:$preto;
+	color:$branco;
+	width:65px;
+	height:65px;
+	border-radius:50%;
+	outline:none;
+
+	&:hover {
+		background-color:lighten($preto, 5%);
+	}
+
+	i {
+		margin-left:5px;
+	}
+}

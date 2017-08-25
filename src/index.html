@@ -3,27 +3,171 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">	<title>Teste</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans" >
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--build:css css/index.min.css-->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--endbuild-->
 </head>
 <body>
-	<nav>
+	<div class="navbar bg-preto">
+		<div class="avatar">
 
-	</nav>
-	<header class="">
+		</div>
+		<div class="linha">
 
+		</div>
+		<nav>
+			<ul class="menu">
+				<li class="menu-item clearfix">
+					<a href="#">
+						<div class="menu-icone">
+							<i class="fa fa-user fa-fw" aria-hidden="true"></i>
+						</div>
+						<div class="menu-texto">
+							<p>Lista de dados</p>
+						</div>
+					</a>
+				</li>
+				<li class="menu-item clearfix">
+					<a href="#">
+						<div class="menu-icone">
+							<i class="fa fa-pencil fa-fw" aria-hidden="true"></i>
+						</div>
+						<div class="menu-texto">
+							<p>Alterar dados</p>
+						</div>
+					</a>
+				</li>
+				<li class="menu-item clearfix selecionado">
+					<a href="#">
+						<div class="menu-icone">
+							<i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>
+						</div>
+						<div class="menu-texto">
+							<p>Notícias</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<header class="header bg-cinza">
+		<div class="header-titulo">
+			<h1>Notícias</h1>
+			<h2>Confira as notícias abaixo</h2>
+		</div>
+		<div class="box-busca clearfix">
+			<input type="search" id="busca" class="campo-busca" placeholder="Buscar..." />
+			<button class="btn-busca"><i class="fa fa-search fa-fw"></i></button>
+		</div>
 	</header>
-
-	<section class="">
-
-	</section>
-
-	<footer class="footer">
-
-	</footer>
+	<div class="container">
+		<section class="post-video clearfix">
+			<div class="card">
+				<div class="card-icone bg-vermelho">
+					<i class="fa fa-video-camera  fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="card-conteudo">
+					<p class="card-titulo">Best story you have ever heard</p>
+					<p class="card-subtitulo">24 minutes ago</p>
+					<p class="card-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's... <a href="#">Read more</a>.
+					</p>
+				</div>
+			</div>
+			<div class="video">
+				<div class="opcoes hover-inativo">
+					<ul>
+						<a href="#"><li>
+							<i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+							<p>Like</p>
+						</li></a>
+						<a href="#"><li>
+							<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+							<p>Later</p>
+						</li></a>
+						<a href="#"><li>
+							<i class="fa fa-share-square-o fa-2x" aria-hidden="true"></i>
+							<p>Share</p>
+						</li></a>
+					</ul>
+				</div>
+				<button class="btn-play">
+					<i class="fa fa-play fa-2x" aria-hidden="true"></i>
+				</button>
+			</div>
+		</section>
+		<section class="post-simples">
+			<div class="card">
+				<div class="card-icone bg-azul">
+					<i class="fa fa-camera fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="card-conteudo">
+					<p class="card-titulo">Here's What Instagram Ads Will Look Like</p>
+					<p class="card-subtitulo">3 hours ago</p>
+					<p class="card-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry... <a href="#">Read more</a>.
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-icone bg-azul">
+					<i class="fa fa-camera fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="card-conteudo">
+					<p class="card-titulo">Here's What Instagram Ads Will Look Like</p>
+					<p class="card-subtitulo">3 hours ago</p>
+					<p class="card-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry... <a href="#">Read more</a>.
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-icone bg-azul">
+					<i class="fa fa-camera fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="card-conteudo">
+					<p class="card-titulo">Here's What Instagram Ads Will Look Like</p>
+					<p class="card-subtitulo">3 hours ago</p>
+					<p class="card-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry... <a href="#">Read more</a>.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="post-full">
+			<div class="img-post">
+				<img src="assets/img/post.jpg" alt="post">
+			</div>
+			<div class="card">
+				<div class="card-icone bg-verde">
+					<i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i>
+				</div>
+				<div class="card-conteudo">
+					<p class="card-titulo">What is Lorem Ipsum?</p>
+					<p class="card-texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting...
+						<br><a href="#">Read more</a>
+					</p>
+					<div class="card-icones">
+						<ul>
+							<li>
+								<i class="fa fa-share-square-o fa-lg" aria-hidden="true"></i>
+								<p>569 Shares</p>
+							</li>
+							<li>
+								<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+								<p>3.152 Views</p>
+							</li>
+							<li>
+								<i class="fa fa-comment fa-lg" aria-hidden="true"></i>
+								<p>21 Comments</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!--build:js js/index.min.js-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/script.js"></script>
+	<!-- endbuild -->
 </body>
 </html>

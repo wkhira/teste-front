@@ -1,0 +1,59 @@
+.avatar {
+	position:relative;
+	width:70px;
+	height:70px;
+	background: url('../assets/img/avatar.png') center no-repeat;
+	background-size:100%;
+	background-color:$rosa;
+	border-radius: 50%;
+	border: 3px solid $branco;
+	margin:32px auto;
+}
+
+.linha {
+	border-bottom: 1px solid lighten($preto, 10%);
+}
+
+.navbar {
+	position:fixed;
+	width: 15%;
+	min-width:185px;
+	height: 100vh;
+}
+
+.menu {
+	margin-top:10px;
+	width:100%;
+}
+
+.menu-item {
+	margin:0 auto;
+	padding:11px 0;
+	width:100%;
+	font-weight: 300;
+	a {
+		text-decoration:none;
+		color:lighten($preto, 40%);
+	}
+}
+
+.menu-item:hover, .selecionado {
+	a {
+		color:$branco;
+	}
+	box-sizing: border-box;
+	border-left: 2px solid $rosa;
+	background-color:lighten($preto, 5%);
+}
+
+.menu-icone {
+	float:left;
+	width: 15%;
+	margin: 0 15px;
+}
+
+.menu-texto {
+	float:left;
+	width: 60%;
+	font-size: 0.9em;
+}
